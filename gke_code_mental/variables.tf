@@ -12,3 +12,19 @@ variable "gcp_region" {
   type = string
   description = "GCP region"
 } 
+
+variable "gke_cluster_name" {
+  type = string
+  description = "gke_cluster_name"
+} 
+
+
+variable "gke_zones" {
+  type = list(string)
+  description = "gke_ zone"
+} 
+
+variable "gke_nodepool_name" {
+  type = string
+  description = "gke default nodepool name"
+} 
