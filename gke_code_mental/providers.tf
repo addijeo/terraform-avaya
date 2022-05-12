@@ -1,7 +1,9 @@
 provider "google" {
+  credentials = file(var.gcp_credentials)
   # Configuration options
   # for project, name ?
-  project     = "432202482117"
-  region      = "us-east1"  
+  project     = var.gcp_project_id
+  region      = var.gcp_region
 }
+
 
