@@ -3,6 +3,7 @@ GKE Cluster Creation                        ; https://www.youtube.com/watch?v=qf
 
 
 Two Projects I worked on here. 
+
   1. Worked with Wells Fargo project Cloud OPS
 
     - CI/CD deployment with DevOps team. 
