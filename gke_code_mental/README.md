@@ -5,11 +5,16 @@ GKE Cluster Creation                        ; https://www.youtube.com/watch?v=qf
 Two Projects I worked on here. 
   1. Worked with Wells Fargo project Cloud OPS
     ```
-    - CI/CD deployment with DevOps team 
-    - Implemented Master/Slave
-    - WebHook Trigger setup 
-    - written few pipelines for angular and nodejs 
-    - deployed code to remote sever using SSH agent plugin
+    - CI/CD deployment with DevOps team. 
+
+    - Implemented Master/Slave.
+
+    - WebHook Trigger setup.
+
+    - written few pipelines for angular and nodejs.
+
+    - deployed code to remote sever using SSH agent plugin.
+    
     ``` 
     
   2. Working with Avaya CCaaS LE 
