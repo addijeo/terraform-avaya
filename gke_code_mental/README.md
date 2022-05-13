@@ -18,7 +18,7 @@ Two Projects I worked on here.
     ``` 
     
   2. Working with Avaya CCaaS LE 
-    ```
+
     - to setup a load balancer with two vm's.
 
     - Used "cloud function" to get asset inventory and push them to BQ.
@@ -30,5 +30,4 @@ Two Projects I worked on here.
     - working on terraform code to Provision GKE cluster.
 
     - and test them using terratest module with GO.
-    
-    ```
+  
