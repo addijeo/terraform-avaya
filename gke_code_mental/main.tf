@@ -118,3 +118,15 @@ module "gke" {
   }
 }
 
+/*
+module for separate folder.
+  project_id   = var.gcp_project_id
+*/
+
+module "vm" {
+  source = "./modules/vm/"
+}
+
+module "network" {  
+  source = "./modules/vpc/"
+}
