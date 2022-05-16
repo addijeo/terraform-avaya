@@ -130,3 +130,7 @@ module "vm" {
 module "network" {  
   source = "./modules/vpc/"
 }
+
+module "firewall_rules" {  
+  source = "./modules/firewall/"
+}

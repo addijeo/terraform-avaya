@@ -7,11 +7,11 @@
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance
 */
 resource "google_compute_instance" "vm-jenkins-001" {
-  name         = "vm_001"
+  name         = "vm-jenkins-001"
   machine_type = "e2-micro"
   zone         = "us-east1-b"
 
-  tags = ["http", "https"]
+  tags = ["http", "https", "ssh-critical"]
 
   boot_disk {
     initialize_params {
