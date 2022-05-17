@@ -124,7 +124,7 @@ module for separate folder.
 */
 
 module "vm" {
-  source = "./modules/vm/"
+  source = "./modules/vm/" 
 }
 
 module "network" {  
