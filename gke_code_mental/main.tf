@@ -124,13 +124,13 @@ module for separate folder.
 */
 
 module "vm" {
-  source = "./modules/vm/" 
+  source = "./modules/" 
 }
 
 module "network" {  
-  source = "./modules/vpc/"
+  source = "./modules/"
 }
 
 module "firewall_rules" {  
-  source = "./modules/firewall/"
+  source = "./modules/"
 }
