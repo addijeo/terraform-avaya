@@ -1,4 +1,4 @@
-gcp_credentials = "keys.json" 
+gcp_credentials = "~/.ssh/keys.json" 
 gcp_project_id = "kubernetes-openscam"
 gcp_region = "us-east1"
 
